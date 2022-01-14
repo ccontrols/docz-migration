@@ -1,0 +1,28 @@
+{
+  "name": "docz-migration-component-controls",
+  "private": true,
+  "author": "Atanas Stoyanov",
+  "version": "1.0.0",
+  "description": "Docz migration to component-controls example",
+  "license": "MIT",
+  "keywords": [
+    "component-controls",
+    "docz"
+  ],
+  "scripts": {
+    "build-sample": "gatsby clean && gatsby build",
+    "start": "gatsby develop -p 9022"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@component-controls/gatsby-theme-stories": "^4.0.5",
+    "gatsby": "^4.5.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccontrols/docz-migration.git"
+  }
+}
